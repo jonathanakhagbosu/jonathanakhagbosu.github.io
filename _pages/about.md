@@ -28,8 +28,13 @@ latest_posts:
 ---
 
 Hello! Welcome to my website.
-I am a PhD student in Industrial Engineering and Operations Research at the University of Massachusetts Amherst. 
-My research is in the intersection of healthcare and operations research.
+
+I am a PhD student in Industrial Engineering and Operations Research at the University of Massachusetts Amherst, specializing in optimization and stochastic modeling.
+
+My work develops data-driven decision-support models for complex operational systems, with applications in high-risk, high-intensity industries including healthcare and aviation.
+
+My interests span roles that emphasize rigorous analytical modeling and quantitative decision-making.
+
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
