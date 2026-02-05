@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/example_pdf.pdf
+permalink: https://github.com/jonathanakhagbosu/jonathanakhagbosu.github.io/blob/1ab4a9c9517f6f04077348843d5b767d50fc0a0c/assets/pdf/Jonathan%20Akhagbosu%20Resume.pdf
 title: Résumé
 nav: true
 nav_order: 5
