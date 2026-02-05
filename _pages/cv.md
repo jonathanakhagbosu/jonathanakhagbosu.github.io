@@ -12,11 +12,11 @@ toc:
 ---
 
 <script>
-  window.open("/assets/pdf/your_resume.pdf", "_blank");
+  window.open("/assets/pdf/example.pdf", "_blank");
   window.location.href = "/";
 </script>
 
 <noscript>
-  <meta http-equiv="refresh" content="0; url=/assets/pdf/your_resume.pdf">
+  <meta http-equiv="refresh" content="0; url=/assets/pdf/example.pdf">
 </noscript>
 
