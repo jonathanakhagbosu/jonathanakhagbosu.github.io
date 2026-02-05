@@ -2,13 +2,13 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A curated set of projects focused on optimization, stochastic modeling, and data-driven decision-making in high-risk, high-intensity operational settings (e.g., healthcare, aviation).
+description: 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
-
+A curated set of projects focused on optimization, stochastic modeling, and data-driven decision-making in high-risk, high-intensity operational settings (e.g., healthcare, aviation).
 ---
 
 ## 1) Equitable Surgeon Workload Allocation Under Uncertainty
