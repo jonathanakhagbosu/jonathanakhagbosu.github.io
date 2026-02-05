@@ -10,3 +10,13 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 ---
+
+<script>
+  window.open("/assets/pdf/your_resume.pdf", "_blank");
+  window.location.href = "/";
+</script>
+
+<noscript>
+  <meta http-equiv="refresh" content="0; url=/assets/pdf/your_resume.pdf">
+</noscript>
+
