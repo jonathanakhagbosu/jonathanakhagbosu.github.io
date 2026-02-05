@@ -1,17 +1,13 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A curated set of projects focused on optimization, stochastic modeling, and data-driven decision-making in high-risk, high-intensity operational settings (e.g., healthcare, aviation).
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
-
-# Projects
-
-A curated set of projects focused on optimization, stochastic modeling, and data-driven decision-making in high-risk, high-intensity operational settings (e.g., healthcare, aviation).
 
 ---
 
