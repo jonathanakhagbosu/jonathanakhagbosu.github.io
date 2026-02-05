@@ -28,7 +28,7 @@ ninja.data = [{
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https:/github.com/jonathanakhagbosu/jonathanakhagbosu.github.io/blob/1ab4a9c9517f6f04077348843d5b767d50fc0a0c/assets/pdf/Jonathan%20Akhagbosu%20Resume.pdf";
+            window.location.href = "/assets/pdf/Jonathan%20Akhagbosu%20Resume.pdf";
           },
         },{id: "post-a-post-with-plotly-js",
         
