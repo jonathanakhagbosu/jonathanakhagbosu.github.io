@@ -479,6 +479,13 @@ ninja.data = [{
           window.open("mailto:%6A%61%6B%68%61%67%62%6F%73%75@%75%6D%61%73%73.%65%64%75", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jonathanakhagbosu", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
