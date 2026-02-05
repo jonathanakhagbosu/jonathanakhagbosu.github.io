@@ -19,16 +19,3 @@ nav_order: 2
 
 <!-- </div> -->
 
-<script>
-  window.open(
-    "https://scholar.google.com/citations?user=jZ6BI18AAAAJ&hl=en&oi=ao",
-    "_blank"
-  );
-  window.location.href = "/";
-</script>
-
-<noscript>
-  <meta http-equiv="refresh"
-        content="0; url=https://scholar.google.com/citations?user=jZ6BI18AAAAJ&hl=en&oi=ao">
-</noscript>
-
