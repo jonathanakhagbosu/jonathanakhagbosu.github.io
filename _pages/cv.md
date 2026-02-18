@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/Jonathan%20Akhagbosu%20Resume.pdf
+permalink: /assets/pdf/JA_Resume.pdf
 title: Résumé
 nav: true
 nav_order: 5
