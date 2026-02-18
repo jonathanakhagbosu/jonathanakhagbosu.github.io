@@ -29,7 +29,7 @@ latest_posts:
 
 Hello! Welcome to my website.
 
-I am a PhD student in Industrial Engineering and Operations Research at the University of Massachusetts Amherst, specializing in optimization and stochastic modeling.
+I am a PhD candidate in Industrial Engineering and Operations Research at the University of Massachusetts Amherst, specializing in optimization and stochastic modeling.
 
 My work develops data-driven decision-support models for complex operational systems, with applications in high-risk, high-intensity industries including healthcare and aviation.
 
