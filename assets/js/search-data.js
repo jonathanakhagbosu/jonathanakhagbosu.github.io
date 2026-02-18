@@ -469,14 +469,14 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/JA_Resume.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%61%6B%68%61%67%62%6F%73%75@%75%6D%61%73%73.%65%64%75", "_blank");
+          window.open("mailto:%6A%6F%6E%61%74%68%61%6E%61%6B%68%61%67%62%6F%73%75@%67%6D%61%69%6C./%63%6F%6D", "_blank");
         },
       },{
         id: 'social-linkedin',
