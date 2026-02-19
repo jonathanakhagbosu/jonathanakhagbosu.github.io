@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A curated set of projects focused on optimization, stochastic modeling, and data-driven decision-making in high-risk, high-intensity operational settings (e.g., healthcare, aviation).",
+          description: "These are selected projects I have worked on or am currently developing, focused on optimization, stochastic modeling, and data-driven decision-making in high-risk, high-intensity operational settings such as healthcare and aviation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
