@@ -2,41 +2,51 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A curated set of projects focused on optimization, stochastic modeling, and data-driven decision-making in high-risk, high-intensity operational settings (e.g., healthcare, aviation).
+description: These are selected projects I have worked on or am currently developing, focused on optimization, stochastic modeling, and data-driven decision-making in high-risk, high-intensity operational settings such as healthcare and aviation.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
+---
+
+## Healthcare Optimization
+
+### Equitable Surgical Case Allocation via Stochastic Integer Programming
+
+This project develops a stochastic integer optimization framework for allocating surgical cases across surgeons while explicitly incorporating workload equity. Surgical assignment decisions influence not only system efficiency but also how workload accumulates across individual surgeons under uncertainty in case durations and emergency arrivals. The model optimizes equity in surgical case allocation while preserving operational feasibility.
+
+The formulation was implemented in Python using Gurobi and evaluated using multi-year, surgery-level EHR data from a U.S. medical center. We incorporated uncertainty in surgery duration and emergency workload variability. Compared to historical allocation practices, the model achieved up to a 70% reduction in maximum pairwise workload envy while maintaining realistic utilization levels. This work contributes a quantitative foundation for fairness-aware surgical workload allocation in high-stakes healthcare environments.
+
+**Methods:** Mixed-Integer Linear Programming (MILP), stochastic modeling, simulation  
+**Tools:** Python, Gurobi, R, Jupyter, LaTeX  
+**Status:** Ongoing  
 
 ---
 
-## 1) Equitable Surgeon Workload Allocation Under Uncertainty
-**One-liner:** Optimization model to allocate surgical workload fairly while preserving buffer for emergencies.  
-**Impact:** Improved equity metrics (envy/imbalance) while maintaining operational feasibility.  
-**Methods:** MILP (Gurobi), scenario-based simulation, fairness objectives.  
-**Data:** Real-world EHR/OR data (multi-year, surgery-level + surgeon-level).  
-**Tools:** Python, Gurobi, R, Jupyter, LaTeX.  
-**Links:** *(add later)* Paper / Code / Slides
+### Surgical Workload Quantification & Queueing-Based Tradeoff Analysis
+
+This project introduces a data-driven framework for quantifying surgical workload and analyzing its operational consequences. Using unsupervised clustering on large-scale healthcare data, surgeries were classified into distinct workload types based on complexity indicators such as patient severity, case characteristics, and duration. These workload classes were embedded into a stochastic queueing model to study tradeoffs between pre-surgery waiting time and surgeon utilization under uncertainty.
+
+Sensitivity analyses examined staffing levels and prioritization policies to evaluate their effect on system performance. Results demonstrated that additional staffing reduced waiting time for lowest-priority cases by up to 82.5%, while priority reordering alone achieved reductions of approximately 42.5%. The work provides a structured methodology for linking workload measurement to policy-level decisions in operating room systems.
+
+**Methods:** Unsupervised learning (clustering), stochastic queueing models, sensitivity analysis  
+**Tools:** R, Python, statistical modeling  
+**Status:** Completed  
 
 ---
 
-## 2) Stochastic Simulation of Emergency Surgery Demand + Duration
-**One-liner:** Simulation pipeline to generate realistic weekly emergency workload scenarios for optimization testing.  
-**Impact:** Stress-tests allocation policies under best-/worst-case emergency loads.  
-**Methods:** Distribution fitting, Monte Carlo scenario generation, sensitivity analysis.  
-**Data:** Historical emergency cases grouped by workload type + duration.  
-**Tools:** Python (`fitter`/`distfit`), R, visualization.  
-**Links:** *(add later)* Repo / Technical note
+## Aviation Analytics
+
+### Pilot Fatigue Analytics & Risk Indicator Identification
+
+This project investigates pilot fatigue using operational flight metrics combined with subjective and objective fatigue measures. Statistical learning methods, including regression modeling and decision tree analysis, were applied to identify key predictors of fatigue outcomes and to characterize relationships between workload intensity, duty schedules, and fatigue risk.
+
+The analysis translated model findings into interpretable risk indicators that can support operational monitoring and fatigue mitigation strategies. By integrating behavioral data with operational variables, this work demonstrates how data-driven analytics can inform safety-critical decision-making in aviation systems.
+
+**Methods:** Regression modeling, decision trees, statistical analysis  
+**Tools:** R, data visualization  
+**Status:** Completed  
 
 ---
 
-## 3) Aviation Analytics Mini-Project
-**One-liner:** Data-driven analysis project using aviation operational data to quantify patterns and support decision-making.  
-**Impact:** Clear findings summarized into actionable metrics/visuals.  
-**Methods:** Statistical analysis + modeling (briefly name what you did: regression, clustering, forecasting, etc.).  
-**Data:** *(what dataset? e.g., flight delays, safety reports, ADS-B, etc.)*  
-**Tools:** Python/R, visualization.  
-**Links:** *(add later)* Repo / Write-up
-
----
